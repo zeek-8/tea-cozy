@@ -1,0 +1,205 @@
+/* Global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Helvetica;
+    color: white;
+}
+
+body {
+    background-color: black;
+
+}
+
+main {
+    padding: 0px 80px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+
+
+/* Nav Bar */
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tea-cozy-logo {
+    height: 50px;
+    width: auto;
+}
+
+.nav-bar-anchors {
+    display: flex;
+    width: 456px;
+    justify-content: space-between;
+}
+
+.nav-bar-anchors a {
+    color: white;
+    font-size: 28px;
+}
+
+
+/* Banner */
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    background-image: url("./images/img-mission-background.jpg");
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 120px;
+}
+
+.banner-text {
+    display: flex;
+    height: 110px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+}
+
+/* Tea of the month */
+
+#tea-of-the-month {
+    display: flex;
+    height: 90px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+/* Tea of the month images */
+
+.tea-of-the-month-images {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.tea-of-the-month-images figure {
+    margin: 20px 20px;
+}
+
+.tea-of-the-month-images figure figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.tea-image {
+    height: 200px;
+    width: 300px;
+}
+
+
+/* Locations */
+
+#locations-container {
+    background-image: url("./images/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 1px;
+}
+
+
+#locations-container h2 {
+    margin-bottom: 45px;
+
+}
+
+.location-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 300px;
+    height: 277px;
+    text-align: center;
+}
+
+.location p {
+    font-size: 20px;
+}
+
+
+/* Tea cozy info */
+
+.tea-cozy-info {
+    display: flex;
+    width: 100%;
+    height: 236px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.email-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 83px;
+}
+
+/* tea copyright */
+
+.tea-copyright {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+}
